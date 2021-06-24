@@ -280,6 +280,7 @@ section:not(.hero):nth-child(even){
 
 .packages .grid li{
     flex-basis: 500px;
+    height: 350px;
     text-align: center;
 }
 
