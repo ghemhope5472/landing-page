@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/index.css">
+
+</head>
+<body>
+    <header>
+        <h2>Mountain Travel</h2>
+                <nav>
+                    <a href="#"> Tours </a>
+                    <a href="#"> Package </a>
+                    <a href="#"> Guide </a>
+                </nav>
+    </header>
+
+    <div class="navBtn">
+        <a href="#"> <i class="fas fa-bars hamburger" onclick="showMenu()"></i> </a>
+    </div>
+
+    <section class="responsiveMenu hide" id="responsiveMenu" >
+        <div class="closeBtn" style="color: white;text-align: right;cursor: pointer;" id="closeBtn"> X </div>
+        <nav>
+            <a href="#"> Tours </a>
+            <a href="#"> Package </a>
+            <a href="#"> Guide </a>
+        </nav>
+    </section>
+
+
+
+
+    <section class="hero">
+        <div  class="background-image" style="background-image: url('assets/img/main.jpg');"></div>
+        <div class="hero-content-area">
+            <h1>Mountain Travel</h1>
+            <h3>Unmissable Adventure Tours Around The World</h3>
+            <a href="#" class="btn"> Contact Us Now </a>
+        </div>
+    </section>
+
+
+    <section class="destinations">
+        <h3>Some of our famous destinations: </h3>
+        <p>Tired of the ocean? Are the plains too plain? Come along with us on one of our mountain adventures 
+            Here are some pictures from people who have had elevated experiences with us.
+        </p>
+        <hr>
+        <ul class="grid">
+            <li class="small" style="background-image: url('assets/img/mountain1.jpg');"></li>
+            <li class="large" style="background-image: url('assets/img/mountain2.jpg');"></li>
+            <li class="large" style="background-image: url('assets/img/mountain3.jpg');"></li>
+            <li class="small" style="background-image: url('assets/img/mountain4.jpg');"></li>
+        </ul>
+
+    </section>
+
+
+    <script src="assets/js/index.js"></script>
+</body>
+</html>
