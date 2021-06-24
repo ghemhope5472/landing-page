@@ -165,13 +165,13 @@ section h3{
     font-size: 30px;
     margin-bottom: 15px;
 }
-.destinations p, .packages p{
+.destinations p, .packages p, .testimonials p{
     text-align: center;
     padding: 15px;
     line-height: 2;
 
 }
-.destinations hr, .packages hr{
+hr{
     background-color: #3f51b5;
     width: 50%;
     height: 3px;
@@ -271,7 +271,7 @@ section:not(.hero):nth-child(even){
     background-color: #f5f5f5;
 }
 
-.packages{
+.packages, .testimonials{
     align-items: center;
     width: 100%;
 }
@@ -299,5 +299,15 @@ section:not(.hero):nth-child(even){
     color: 20px;
     font-size: 1.5em;
     padding: 20px;
- 
+}
+
+.testimonials p{
+    padding: 10px;
+    width: 700px;
+   
+}
+
+.author{
+    font-size: small;
+    font-weight: 800;
 }
