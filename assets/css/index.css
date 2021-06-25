@@ -171,7 +171,7 @@ section h3{
     line-height: 2;
 
 }
-.destinations hr, .packages hr{
+hr{
     background-color: #3f51b5;
     width: 50%;
     height: 3px;
@@ -299,4 +299,15 @@ section:not(.hero):nth-child(even){
     font-size: 1.5em;
     padding: 20px;
  
+}
+
+.testimonials{
+    align-items: center;
+    width: 100%;
+}
+
+.testimonials .author{
+    font-weight: 800;
+    font-size: 15px;
+    padding: 10px;
 }
