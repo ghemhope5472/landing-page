@@ -306,8 +306,16 @@ section:not(.hero):nth-child(even){
     width: 100%;
 }
 
+.testimonials p{
+   width: 600px;
+   text-align: center;
+   line-height: 30px;
+}
+
 .testimonials .author{
     font-weight: 800;
     font-size: 15px;
     padding: 10px;
+    margin-bottom: 50px;
 }
+
